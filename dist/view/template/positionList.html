@@ -1,0 +1,14 @@
+<div class="appPositionList">
+    <ul>
+        <li ui-sref="position({id:i.id})" class="item" ng-repeat="i in data">
+
+            <img class="f-l logo" ng-src="{{i.imgSrc}}" alt="">
+            <h3 class="title">{{i.name}}</h3>
+            <p class="text">
+                {{i.companyName}}【{{i.name}}】{{i.industry}} <br><span>{{i.time}}</span>
+            </p>
+        </li>
+
+
+    </ul>
+</div>

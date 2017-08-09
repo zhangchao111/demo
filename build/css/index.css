@@ -1,0 +1,247 @@
+.head {
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  padding: 0px 7px;
+  background: #12d5b5;
+}
+.head .text {
+  color: #fff;
+}
+.head .custom {
+  height: 0.66666667rem;
+  line-height: 0.66666667rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  background: #F0B116;
+  color: #fff;
+  display: inline-block;
+  margin-top: 0.16rem;
+  border: 1px dashed #F0B116;
+  font-size: 0.37333333rem;
+}
+.head .c-w {
+  color: #fff;
+}
+.head .back-btn {
+  top: 0px;
+  left: 0px;
+  font-size: 0.53333333rem;
+  width: 1.2rem;
+}
+.foot {
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: #fff;
+  height: 1.06666667rem;
+  border-top: 1px solid #d4d4d4;
+  font-size: 0;
+}
+.foot li {
+  font-size: 0.42666667rem;
+  color: #9f9e9d;
+  width: 33%;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+}
+.foot li.select {
+  background: #dbf9f4;
+  color: #01c2a3;
+}
+.foot i {
+  width: 0.58666667rem;
+  height: 0.58666667rem;
+}
+.foot .ionic-document {
+  background: url(../../image/zhiwei.png) no-repeat center center;
+  background-size: 30px 30px ;
+}
+.foot .ionic-search {
+  background: url(../../image/sousuo.png) no-repeat center center;
+  background-size: 30px 30px ;
+}
+.foot .ionic-me {
+  background: url(../../image/my.png) no-repeat center center;
+  background-size: 30px 30px ;
+}
+.appPositionList {
+  background: #fff;
+}
+.appPositionList .item {
+  padding-top: 0.16rem;
+  padding-left: 0.08rem;
+  padding-right: 0.08rem;
+  padding-bottom: 0.16rem;
+  border-bottom: 1px solid #ddd;
+}
+.appPositionList .item .logo {
+  height: 1.73333333rem;
+  width: 1.73333333rem;
+  margin-right: 0.34666667rem;
+}
+.appPositionList .item .title {
+  font-size: 0.42666667rem;
+  margin-bottom: 0.13333333rem;
+}
+.appPositionList .item .text {
+  font-size: 0.37333333rem;
+}
+.buttom-btn {
+  position: fixed;
+  height: 1.2rem;
+  background: #12d5b5;
+  color: #fff;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+.position-info {
+  padding-top: 0.69333333rem;
+  padding-right: 0.26666667rem;
+  padding-left: 0.26666667rem;
+  padding-bottom: 0.48rem;
+  border-bottom: 1px solid #ccc;
+  font-size: 0.37333333rem;
+}
+.position-info .sml {
+  margin-left: 0.26666667rem;
+}
+.position-info img {
+  right: 24px;
+  top: 35px;
+}
+.position_desc {
+  margin-top: 0.13333333rem;
+}
+.position_desc h5 {
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  padding-left: 0.4rem;
+  border-bottom: 1px solid #ccc;
+}
+.position_desc pre {
+  padding-top: 0.4rem;
+  margin-left: 0rem;
+  padding-left: 0rem;
+  padding-bottom: 0.26666667rem;
+  font-size: 0.4rem;
+}
+.company_info {
+  padding-top: 0.26666667rem;
+  padding-right: 0.4rem;
+  padding-left: 2.26666667rem;
+  padding-bottom: 0.34666667rem;
+  font-size: 0.37333333rem;
+}
+.company_info img {
+  width: 1.6rem;
+  height: 1.6rem;
+  top: 0px;
+  left: 15px;
+}
+.f-r {
+  float: right;
+}
+.f-l {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.ta-l {
+  text-align: left ;
+}
+.ta-r {
+  text-align: right;
+}
+.ta-c {
+  text-align: center;
+}
+.va-t {
+  vertical-align: top;
+}
+.va-b {
+  vertical-align: bottom;
+}
+.va-m {
+  vertical-align: middle;
+}
+.p-a {
+  position: absolute;
+}
+.p-r {
+  position: relative;
+}
+.bg_w {
+  background: #fff;
+}
+.c-r {
+  color: red;
+}
+.positionClass {
+  border-top: 1px solid #ccc;
+  padding-top: 0.34666667rem;
+  padding-right: 0.24rem;
+  padding-left: 0.24rem;
+  padding-bottom: 0.34666667rem;
+}
+.positionClass h5 {
+  margin-bottom: 0.4rem;
+  font-size: 0.4rem;
+}
+.positionClass button {
+  background: #def8f5;
+  border-radius: 15px;
+  margin-right: 0.26666667rem;
+  padding-top: 0.16rem;
+  padding-right: 0.61333333rem;
+  padding-left: 0.61333333rem;
+  padding-bottom: 0.16rem;
+}
+.positionClass button.active {
+  background: #12d5b5;
+  color: #fff;
+}
+input,
+button,
+select,
+textarea {
+  outline: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 0.42666667rem;
+  background: #eee;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+button {
+  border: none;
+}
+img {
+  border: 0px;
+}

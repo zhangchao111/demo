@@ -1,0 +1,32 @@
+@import "../variable.less";
+
+.head{
+  .h(40);
+  .lh(40);
+  padding:0px 7px;
+  background: @headBgColor;
+  .text{
+    color:@defaultColor;
+  }
+  .custom{
+    .h(25);
+    .lh(25);
+    .pl(15);
+    .pr(15);
+    background: @warnColor;
+    color:@defaultColor;
+    display: inline-block;
+    .mt(6);
+    border:1px dashed @warnColor;
+    .fs(14);
+  }
+  .c-w{
+      color:#fff;
+    }
+  .back-btn{
+    top:0px;
+    left:0px;
+    .fs(20);
+    .w(45);
+  }
+}

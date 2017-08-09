@@ -1,0 +1,25 @@
+.positionClass{
+  border-top:1px solid #ccc;
+  .pt(13);
+  .pr(9);
+  .pl(9);
+  .pb(13);
+
+    h5{
+      .mb(15);
+      .fs(15);
+    }
+    button{
+      background: @companyBtnColor;
+      border-radius: 15px;
+      .mr(10);
+      .pt(6);
+      .pr(23);
+      .pl(23);
+      .pb(6);
+      &.active{
+          background: @headBgColor;
+        color:@defaultColor;
+      }
+    }
+}
