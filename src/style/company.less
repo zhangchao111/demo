@@ -17,9 +17,27 @@
       .pr(23);
       .pl(23);
       .pb(6);
+      .mb(5);
       &.active{
           background: @headBgColor;
         color:@defaultColor;
       }
     }
+  ul{
+    border-top:1px solid #ccc;
+    .pt(10);
+    .fs(15);
+    li{
+      p{
+        .lh(25);
+      }
+      span{
+          top:50%;
+        .mt(-10);
+        right:10px;
+        color:@companyListColor;
+      }
+    }
+  }
+
 }

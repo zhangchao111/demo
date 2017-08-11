@@ -8,6 +8,8 @@ angular.module("app").directive("appPositionInfo",[function(){
         replace:true,
         scope:{
           isActive:'=',
+            isLogin:'=',
+            pos:'=',
         },
         templateUrl:'view/template/position-info.html',
         link:function(scope){

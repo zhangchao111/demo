@@ -1,13 +1,13 @@
 <div class="positionClass bg_w">
    <h5>职位分类</h5>
-   <button class="active">技术</button>
-   <button>运营</button>
+   <button ng-click="showPositionList($index)" class="{{$index===isActive?'active':''}}" ng-repeat="cls in com.positionClass"  ng-bind="cls.name"></button>
+   <!--<button>运营</button>-->
 
    <ul>
-      <li>
-         <p>IOS前端工程师</p>
-         <p>2017-08-09 17:35:00</p>
-         <span>15k-25k</span>
+      <li class="p-r" ng-repeat="lis in positionList">
+         <p ng-bind="lis.name"></p>
+         <p ng-bind="lis.createdDate"></p>
+         <span class="p-a" ng-bind="lis.salary"></span>
       </li>
    </ul>
 </div>

@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "angular": "^1.6.5",
-    "ui-router": "zhangchao111/ui-router"
+    "ui-router": "zhangchao111/ui-router",
+    "angular-cookies": "^1.6.5"
   }
 }
